@@ -1,5 +1,5 @@
-function appendElements(shadowRoot: HTMLElement | ShadowRoot, elements: Array<HTMLElement | HTMLStyleElement>): void {
-    elements.forEach(element => shadowRoot.appendChild(element));
+function appendElements(parent: HTMLElement | ShadowRoot, elements: Array<HTMLElement | HTMLStyleElement>): void {
+    elements.forEach(element => parent.appendChild(element));
 }
 
 function createElement(element: string, properties: {}): HTMLElement | HTMLStyleElement {
