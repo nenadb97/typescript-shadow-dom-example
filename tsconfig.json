@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",                          
+    "module": "commonjs",                     
+    "strict": true,
+    "outDir": "dist",
+    "typeRoots": [
+      "./node_modules/@types"
+  ],
+  },
+  "node": {
+    "fs": "empty"
+  }
+} 
